@@ -51,12 +51,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     make_ext4fs \
     e2fsck \
-    setup_fs \
-    libexifa \
-    	libjpega \
-    	libkeyutils \
-		ebtables \
-		brctl
+    setup_fs 
 
 # Thermal profiles
 PRODUCT_PACKAGES += \
