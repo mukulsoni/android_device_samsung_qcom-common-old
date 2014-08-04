@@ -51,7 +51,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     make_ext4fs \
     e2fsck \
-    setup_fs
+    setup_fs \
+    libexifa \
+    	libjpega \
+    	libkeyutils \
+		ebtables \
+		brctl
 
 # Thermal profiles
 PRODUCT_PACKAGES += \
@@ -80,7 +85,11 @@ PRODUCT_PACKAGES += \
     lpm.rc \
     init.qcom.lpm_boot.sh \
     init.recovery.qcom.rc \
-    init.qcom.ril.sh
+    init.qcom.ril.sh \
+    init_msm8226.c \
+    init_msm.c \
+    init_msm.h \
+    init_msmdefault.c
 
 # Charger
 PRODUCT_PACKAGES += charger charger_res_images
